@@ -65,11 +65,15 @@ int Sort<T>::partition(T** items, int first, int last, int (*compare) (T* one, T
 {
    //DO THIS
    //complete the partition method (Lomuto partition)
-
+   int pivot = items[first];
+   int i = first-1;
    //temp is used to swap elements in the array
    T* temp; 
    
-   
+   for (int i = first; i < last; i++)
+	   if (compare(items[i], pivot) <= 0)
+		   
+		   
    //initially, choosePivot does nothing           
    choosePivot(items, first, last); 
    
