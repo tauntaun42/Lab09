@@ -25,8 +25,6 @@ Point.o:		Point.h Point.cpp
 				$(COMPILE) Point.cpp
 Points.o:		Points.h Points.cpp
 				$(COMPILE) Points.cpp
-#QuickTest.o:	Sort.h QuickTest.cpp
-#				$(COMPILE) QuickTest.cpp
 SortPlot.o:		Sort.h SortPlot.h SortPlot.cpp
 				$(COMPILE) SortPlot.cpp
 
